@@ -2,13 +2,13 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionVariableCondition" version="1.0.0"/>
+        <action name="ActionKey" version="1.0.0"/>
         <action name="ActionWriteText" version="1.0.0"/>
         <action name="ActionStop" version="1.0.0"/>
-        <action name="ActionKey" version="1.0.0"/>
-        <action name="ActionReadClipboard" version="1.0.0"/>
-        <action name="ActionWindow" version="1.0.0"/>
         <action name="ActionVariable" version="1.0.0"/>
+        <action name="ActionVariableCondition" version="1.0.0"/>
+        <action name="ActionWindow" version="1.0.0"/>
+        <action name="ActionReadClipboard" version="1.0.0"/>
     </actions>
     <parameters/>
     <resources/>
@@ -332,6 +332,32 @@
             </parameter>
             <parameter name="type">
                 <subParameter name="value" code="0">Win32</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWindow" comment="acttivation de la fenêtre Firefox">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="action">
+                <subParameter name="value" code="0">setForeground</subParameter>
+            </parameter>
+            <parameter name="movePosition">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="resizeHeight">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="resizeWidth">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">Add new product ‹ Test Env Hugo — WordPress — Mozilla Firefox</subParameter>
+            </parameter>
+            <parameter name="useBorders">
+                <subParameter name="value" code="0">true</subParameter>
             </parameter>
         </action>
         <action name="ActionStop" comment="fin">

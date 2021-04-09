@@ -1,8 +1,8 @@
 # Actiona/Actionaz Aide-Mémoire (cheat sheet) With A WooCommerce Script
 
-A 14-line script in Actiona.
+A simple script in Actiona.
 
-![A 14-line script in Actiona.](img/preview.png)
+![A simple script in Actiona.](img/preview.png)
 
 ## Installing Actiona/Actionaz on Linux Mint
 
