@@ -1,6 +1,12 @@
 # Actiona/Actionaz Aide-Mémoire (cheat sheet) With A WooCommerce Script
 
-A simple script in Actiona.
+This is a simple Actiona/Actionaz script. Don't ask me for the difference between Actiona and Actionaz. All I know is these two names float around on the Internet and are used synonymously.
+
+This is basically copy-and-paste on steroids.
+
+This script copies and pastes the content of LibreOffice Calc cells into fields of a WooCommerce product form. The fields in the WooCommerce form must be chosen manually and most operations must be carried out manually in the WooCommerce form itself.
+
+This relative simplicity allows for more flexibility and reusability. To make all other copying and pasting related operations automatized would call for a much heavier and complex script which would need adaptation to every new task.
 
 ![A simple script in Actiona.](img/preview.png)
 
@@ -14,7 +20,7 @@ To find out what version you are running (or whether or not Actiona/Actionaz is 
 
 ## What You Should Know
 
-This script copies and pastes the content of a LibreOffice Calc spreadsheet named into fields of a WooCommerce product form. To work properly, this script needs:
+To work properly, this script needs:
 
 - an open **Firefox tab**, with the Add new product form in it
 - a **LibreOffice Calc** spreadsheet **produits.ods**, where:
